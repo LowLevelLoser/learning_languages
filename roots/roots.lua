@@ -45,7 +45,7 @@ end
 
 
 for i = 1, Number_of_degrees-1, 1 do
-    local input = math.random(-3,3)
+    local input = math.random()
     math.randomseed(math.random(-100000000, 10000000000))
     for i = 1, max_iterations, 1 do
         local closness_to_zero =  5000
