@@ -5,7 +5,7 @@ Number_of_degrees = io.read("*n")
 local polynomial = {}
 local derivative = {}
 --local minimum_closeness_to_zero
-local max_iterations = 20
+local max_iterations = 200
 
 print("write your coefficents from smallest to largest")
 
